@@ -36,15 +36,15 @@ console.log(score.p1);
 console.log(score.p2);
 
 function winning(){
-    alert("winner!")
+    alert("Winner, Winner, Chicken Dinner!")
     if(score.p1>score.p2){
-        document.getElementById("winner").innerHTML = "<h3>Player 1 wins!!</h3><h4>Resfresh the browser to play again.</h4>";
+        document.getElementById("winner").innerHTML = "<h3>Player 1 Wins!!</h3><h4>Refresh the browser to play again.</h4>";
     }
     else if(score.p2>score.p1){
-        document.getElementById("winner").innerHTML = "<h3>Player 2 wins!!</h3><h4>Resfresh the browser to play again.</h4>";
+        document.getElementById("winner").innerHTML = "<h3>Player 2 Wins!!</h3><h4>Refresh the browser to play again.</h4>";
     }
     else if(score.p2=score.p1){
-        document.getElementById("winner").innerHTML = "<h3>It's a Tie!!</h3><h4>Resfresh the browser to play again.</h4>";
+        document.getElementById("winner").innerHTML = "<h3>It's a Tie!!</h3><h4>Refresh the browser to play again.</h4>";
     }
 }
 showPacman();
